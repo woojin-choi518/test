@@ -22,7 +22,7 @@ const Login = () => {
       setFontsLoaded(true);
     };
 
-    loadFonts();
+    loadFonts()
   }, []);
 
   if (!fontsLoaded) {
